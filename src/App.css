@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(221, 171, 151);
+}
+.App{
+  background-color: rgb(209, 74, 88);
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+#to-do-list input{
+  background-color:#355C7D;
+  padding: 0 20px;
+  border-radius:15px;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  font-size: 20px;
+  color:whitesmoke;
+  margin:20px;
+}
+#to-do-list input::placeholder{
+  color: black;
+}
+#to-do-list input:focus, #to-do-list button:focus{
+  outline: none;
+}
+#to-do-list button{
+  height: 50px;
+  width: 80px;
+  border-radius:15px;
+  border:0;
+  background-color: rgba(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: whitesmoke;
+  font-size: 20px;
+}
